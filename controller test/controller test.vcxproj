@@ -111,6 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="testMain.cpp" />
+    <ClCompile Include="xboxController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xboxController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
